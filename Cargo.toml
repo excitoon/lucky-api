@@ -1,0 +1,15 @@
+cargo-features = ["edition2024"]
+
+[package]
+name = "lucky-api"
+version = "0.1.0"
+edition = "2024"
+
+[[bin]]
+name = "lucky_api"
+path = "main.rs"
+
+[dependencies]
+num-bigint = "0.4.6"
+regex = "1.11.1"
+sha1 = "0.10.6"
